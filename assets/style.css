@@ -54,16 +54,17 @@ main {
   gap: 20px;
 }
 
-#content {
-  width: 560px;
-  background-color: #ccc;
+#sidebar-right, #sidebar-left {
+  width: 200px;
+  background: #CCC;
   height: 500px;
 }
 
-#sidebar-right, #sidebar-left {
-  width: 200px;
-  background: #ccc;
+#content {
+  width: 520px;
+  background: #f1f1f1;
   height: 500px;
+  padding: 20px;
 }
 
 footer {
