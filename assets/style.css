@@ -52,9 +52,27 @@ header nav ul {
 header nav ul li a {
   color: white;
   padding: 0 0 8px 0;
-  
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px; /* Espaço para a barra */
+  cursor: pointer; /* Mude o cursor para indicar interatividade */
+}
+header nav ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 4px; /* Tamanho da barra */
+  background-color: orange; /* Cor da barra */
+  transform: scaleX(0); /* Começa sem largura (invisível) */
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out; /* Efeito de transição suave */
 }
 
+header nav ul li a:hover::after {
+  transform: scaleX(1); /* Expande a largura da barra no hover */
+}
 #exec1 {
     background: #CCC;
     width: 300px;
@@ -114,6 +132,5 @@ footer {
 }
 
 .active {
-  border-bottom: 4px solid orange;
-
+  color: orange;
 }
