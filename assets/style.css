@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;;
+  background-color: #CCC;
 }
 header {
   background-color: black;
@@ -110,21 +111,26 @@ main.wrapper {
 
 #sidebar-right, #sidebar-left {
     width: 200px;
-    background: #CCC;
     height: 500px;
 }
 
 #content {
     width: 520px;
-    background: #ccc;
+    background: black;
+    color: white;
     height: 500px;
     padding: 20px;
+}
+
+#content h3 {
+  margin: 0 0 20px 0;
 }
 
 
 footer {
   width: 100%;
-  background: #ccc;
+  background: black;
+  color: white;
   height: 200px;
   display: flex;
   justify-content: center;
@@ -133,4 +139,56 @@ footer {
 
 .active {
   color: orange;
+}
+
+.card {
+  color: white;
+  background-color: #000;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  margin: 0 0 20px 0;
+}
+
+.card img {
+  border-radius: 15px 15px  0 0;
+}
+
+.card div {
+  padding: 20px;
+}
+
+.card div h3 {
+  margin: 0 0 10px 0;
+}
+
+.card div p {
+  margin: 0;
+}
+
+.card2 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 15px;
+  margin: 0 0 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.card2 img {
+  border-radius: 15px 0  0 15px;
+}
+
+.card2 div {
+  padding: 10px;
+}
+
+.card2 div h3 {
+  margin: 0 0 10px 0;
+}
+
+.card2 div p {
+  margin: 0;
 }
