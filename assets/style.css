@@ -58,6 +58,20 @@ header nav ul li a {
   padding-bottom: 5px; /* Espaço para a barra */
   cursor: pointer; /* Mude o cursor para indicar interatividade */
 }
+
+header nav ul li button {
+  background: orange;
+  color:white;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+header nav ul li button:hover {
+  background: rgb(180, 126, 25);
+}
+
 header nav ul li a::after {
   content: '';
   position: absolute;
@@ -200,3 +214,7 @@ table, th, td {
 th, td {
   padding: 5px 10px;
 }
+table {
+  border-collapse: collapse;
+}
+
