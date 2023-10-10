@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Soma</title>
+</head>
+<body>
+    <main  id="main" class="content">
+        <h1>Calculadora</h1>
+
+        <div class="form">  
+            <!-- <label>Nome</label> -->
+            <input placeholder="Primeiro numero"  type="number" id="num1" class="fild">
+            <input placeholder="Segundo numero"  type="number" id="num2" class="fild">
+            <div id="resultado"></div>
+        </div>
+        <div class="op">
+            <button onclick="soma()" id="button">Soma</button>
+            <button onclick="sub()" id="button">Subtração</button>
+            <button onclick="mult()" id="button">Multiplicação</button>
+            <button onclick="div()" id="button">Divisão</button>
+        </div>
+
+    </main>
+
+    <script src="./calc.js"></script>
+</body>
+</html>
