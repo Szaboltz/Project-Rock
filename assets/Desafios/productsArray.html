@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Desafio</title>
+</head>
+<body onload="loadProducts()"></body> <!-- Ao carregar executa função  -->
+    <main  id="main" class="content">
+        <h1>Adicionar Produtos</h1>
+
+        <div class="form">  
+            <!-- <label>Nome</label> -->
+            <input placeholder="Nome"  type="text" id="nome" class="fild">
+            <input placeholder="Preço"  type="text" id="preco" class="fild">
+            <input placeholder="URL"  type="text" id="url" class="fild">
+            <button onclick="produto()" id="button">Add</button>
+        </div>
+
+    </main>
+
+    <script src="./productsArray.js"></script>
+</body>
+</html>
