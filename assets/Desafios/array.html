@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Desafio</title>
+</head>
+<body>
+    <main  id="main" class="content">
+        <h1>Adicionar Array</h1>
+
+        <div class="form">  
+            <!-- <label>Nome</label> -->
+            <input placeholder="Nome"  type="text" id="nome" class="fild">
+            <input placeholder="Categoria"  type="text" id="categoria" class="fild">
+            <div class="buttons">
+                <button onclick="add()" id="button">Add</button>
+                <button onclick="show()" id="button">Show all</button>
+                <button onclick="remove()" id="button">Remove last</button>
+                <button onclick="removeByName()" id="button">Remove By Name</button>
+
+            </div>
+        </div>
+
+        <div class="movies">
+            <div class="array" id="array"></div>
+        </div>
+
+    </main>
+
+    <script src="./arrayadd.js"></script>
+</body>
+</html>
