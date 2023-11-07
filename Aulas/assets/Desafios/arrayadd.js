@@ -29,10 +29,13 @@ function remove(){
 
 function removeByName() {
     let nome = document.getElementById('nome');
-    movies.map((filme, index) => {
-        if (filme.name === nome.value) {
-            movies.splice(index, 1);
-        }
-    })
+
+    m
+
+    // movies.map((filme, index) => {
+    //     if (filme.name === nome.value) {
+    //         movies.splice(index, 1);
+    //     }
+    // })
 }
 
