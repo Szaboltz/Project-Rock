@@ -1,5 +1,4 @@
 const getVehicle = async (type) =>{
-    typeVehicle = type
     const divResult = document.querySelector('#result')
     divResult.innerHTML = '<p>Carregando...</p>'
 
